@@ -3,7 +3,7 @@ name = "tree_collections"
 version = "0.1.0"
 edition = "2018"
 authors = ["Binkai Tan <binkai@ualberta.ca>", "Da Song <dsong4@ualberta.ca >", "Ruijia Zhang <ruijia4@ualberta.ca >"]
-description = "A collection for tree data structures, including Red-Black tree and AVL tree."
+description = "A collection for tree data structures. It provides APIs that allows users to create memory efficient red-black trees and avl trees."
 license = "MIT OR Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
