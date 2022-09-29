@@ -82,3 +82,7 @@ Run the Benchmark using
 $ cargo bench
 ```
 
+## Requirements
+
+Cargo version: 1.56^
+Ref: https://blog.rust-lang.org/2021/10/21/Rust-1.56.0.html
