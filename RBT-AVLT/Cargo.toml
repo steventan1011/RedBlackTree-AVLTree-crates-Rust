@@ -6,7 +6,7 @@ authors = ["Binkai Tan <binkai@ualberta.ca>", "Da Song <dsong4@ualberta.ca >", "
 description = "A collection for tree data structures. It provides APIs that allows users to create memory efficient binary search trees, red-black trees and avl trees."
 license = "MIT OR Apache-2.0"
 documentation = "https://docs.rs/tree_collections/latest/tree_collections/"
-keywords = ["binary", "search", "red-black", "AVL", "BST", "tree"]
+keywords = ["BST", "red-black", "AVL", "tree"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
