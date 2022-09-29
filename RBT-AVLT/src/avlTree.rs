@@ -57,10 +57,6 @@ impl<T: Ord + Copy + Debug + Display> TreeNode<T> {
             height: 1, // default height of a new node is 1，which is a leave
         })))
     }
-
-    fn get_data(&self) -> T {
-        return self.value;
-    }
 }
 
 #[derive(Clone, Debug, PartialEq)]
