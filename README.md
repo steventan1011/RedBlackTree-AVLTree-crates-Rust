@@ -1,6 +1,6 @@
-# ECE-522-2021-FALL-PROJECT
+# Tree_collections
 
-The purpose of this library is to provide APIs that allows users to create memory efficient red-black tree and avl tree. Besides, by using this library, users can investigate the performance difference between red-black tree and avl tree, which helps them deeply understand the algorithms.
+The purpose of this library is to provide APIs that allows users to create memory efficient binary search tree, red-black tree and AVL tree. Besides, by using this library, users can investigate the performance difference between red-black tree and avl tree, which helps them deeply understand the algorithms.
 
 ## Quick Start
 
@@ -9,11 +9,27 @@ use tree_collections::prelude::*;
 
 let mut rb_tree = RBTree::new();
 rb_tree.insert(1);
-rb_tree.delete(1);
+rb_tree.insert(2);
+rb_tree.insert(3);
+rb_tree.insert(4);
+rb_tree.insert(5);
+rb_tree.delete(3);
+println!("Red-Black Tree:");
+rb_tree.print();
+println!("Number of leaves: {:?}", rb_tree.count_leaves());
+println!("Height of tree: {:?}", rb_tree.height());
 
 let mut avl_tree = AVLTree::new();
 avl_tree.insert(1);
-avl_tree.delete(1);
+avl_tree.insert(2);
+avl_tree.insert(3);
+avl_tree.insert(4);
+avl_tree.insert(5);
+avl_tree.delete(3);
+println!("AVL Tree:");
+avl_tree.print();
+println!("Number of leaves: {:?}", rb_tree.count_leaves());
+println!("Height of tree: {:?}", rb_tree.height());
 
 ```
 ## Documentation
