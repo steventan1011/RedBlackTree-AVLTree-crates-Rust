@@ -1,6 +1,6 @@
 # Tree_collections
 
-The purpose of this library is to provide APIs that allows users to create memory efficient red-black tree and avl tree. Besides, by using this library, users can investigate the performance difference between red-black tree and avl tree, which helps them deeply understand the algorithms.
+The purpose of this library is to provide APIs that allows users to create memory efficient binary search tree, red-black tree and AVL tree. Besides, by using this library, users can investigate the performance difference between red-black tree and avl tree, which helps them deeply understand the algorithms.
 
 ## Quick Start
 
