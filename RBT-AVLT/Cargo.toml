@@ -1,6 +1,6 @@
 [package]
 name = "tree_collections"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2018"
 authors = ["Binkai Tan <binkai@ualberta.ca>", "Da Song <dsong4@ualberta.ca >", "Ruijia Zhang <ruijia4@ualberta.ca >"]
 description = "A collection for tree data structures. It provides APIs that allows users to create memory efficient binary search trees, red-black trees and avl trees."
