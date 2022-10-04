@@ -41,7 +41,7 @@ Building the documentation using
 ```
 $ cargo doc
 ```
-Find the API doc at 
+Find the API doc at https://docs.rs/tree_collections/latest/tree_collections/ or,
 
 ```
 ./target/doc/tree_collections/index.html

@@ -4,6 +4,8 @@ The purpose of this library is to provide APIs that allows users to create memor
 
 ## Quick Start
 
+https://crates.io/crates/tree_collections
+
 ```rust
 use tree_collections::prelude::*;
 
@@ -41,7 +43,7 @@ Building the documentation using
 ```
 $ cargo doc
 ```
-Find the API doc at 
+Find the API doc at https://docs.rs/tree_collections/latest/tree_collections/ or,
 
 ```
 ./target/doc/tree_collections/index.html
